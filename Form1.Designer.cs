@@ -140,7 +140,7 @@ namespace SistemaCadastro
             resources.ApplyResources(this.lista, "lista");
             this.lista.FormattingEnabled = true;
             this.lista.Name = "lista";
-            this.lista.SelectedIndexChanged += new System.EventHandler(this.lista_SelectedIndexChanged);
+            //this.lista.SelectedIndexChanged += new System.EventHandler(this.lista_SelectedIndexChanged);
             this.lista.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lista_MouseDoubleClick);
             // 
             // btnCadastrar
