@@ -124,7 +124,7 @@ namespace SistemaCadastro
 
             foreach (Pessoa p in pessoas)
             {
-                lista.Items.Add(p);
+                lista.Items.Add(p.Nome);
             }
         }
 
